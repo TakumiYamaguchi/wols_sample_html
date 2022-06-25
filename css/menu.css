@@ -1,0 +1,28 @@
+.menu{
+    margin: 50px;
+}
+.menu_heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* .menu_inner{
+    display: flex;
+} */
+.menu_wrap{
+    display: flex;
+}
+
+@media screen and (max-width:767px){
+    .menu_wrap{
+        display: block;
+    }
+}
+
+.menu_content{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.menu_content:last-of-type{
+    margin-right: 0;
+}
